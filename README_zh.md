@@ -1,5 +1,7 @@
 # MVP Idea Generator Skill Pack
 
+![MVP Idea Generator Banner](assets/banner.png)
+
 一个从Reddit挖掘真实痛点并生成可落地的MVP方案的技能包。帮助独立开发者、SaaS创始人、跨境创业者和AI工具开发者快速验证产品创意，设计最小可行产品。
 
 ## 功能特性
