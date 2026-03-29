@@ -1,121 +1,120 @@
 # MVP Idea Generator Skill Pack
 
-一个从Reddit挖掘真实痛点并生成可落地的MVP方案的技能包。帮助独立开发者、SaaS创始人、跨境创业者和AI工具开发者快速验证产品创意，设计最小可行产品。
+A skill pack that digs into Reddit to find real pain points and generates actionable MVP solutions. Helps indie developers, SaaS founders, cross-border entrepreneurs, and AI tool developers quickly validate product ideas and design minimum viable products.
 
-## 功能特性
+## Features
 
-- **垂直社区定位** - 自动发现高价值、高活跃度的Reddit Subreddit
-- **痛点嗅探** - 从社区讨论中提取真实、高频的用户需求
-- **MVP生成** - 设计单一核心功能、7天可构建的最小可行产品方案
-- **验证文案** - 生成符合Reddit社区规范的验证帖模板
-- **商业评分** - 客观评估项目的商业可行性（5维度评分系统）
+- **Vertical Community Discovery** - Automatically finds high-value, high-activity Reddit Subreddits
+- **Pain Point Sniffing** - Extracts real, high-frequency user needs from community discussions
+- **MVP Generation** - Designs single-core-feature, 7-day-buildable minimum viable product solutions
+- **Validation Copy** - Generates Reddit-compliant validation post templates
+- **Business Scoring** - Objectively evaluates project feasibility (5-dimension scoring system)
 
-## 安装
+## Installation
 
-### 从GitHub克隆
+### Clone from GitHub
 ```bash
-git clone https://github.com/your-username/mvp-skills.git
+git clone https://github.com/ange-web3/mvp-skills.git
 cd mvp-skills
 ```
 
-### 安装到OpenCode
-将技能包复制到OpenCode的技能目录：
+### Install to OpenCode
+Copy the skill pack to OpenCode's skills directory:
 ```bash
 cp -r skills/* ~/.config/opencode/skills/
 ```
 
-或者使用符号链接（推荐，便于开发）：
+Or use symlinks (recommended for development):
 ```bash
 ln -s $(pwd)/skills/* ~/.config/opencode/skills/
 ```
 
-### 验证安装
-重启OpenCode，检查技能是否可用：
+### Verify Installation
+Restart OpenCode and check if the skill is available:
 ```
-请列出所有可用的技能
+Please list all available skills
 ```
-你应该能看到 `mvp-idea-generator` 技能。
+You should see the `mvp-idea-generator` skill.
 
-## 使用示例
+## Usage Examples
 
-### 基本使用
-当用户提到产品创意验证、市场痛点分析或MVP设计时，技能会自动触发。
+### Basic Usage
+The skill automatically triggers when users mention product idea validation, market pain point analysis, or MVP design.
 
-**示例1: AI写作工具创意验证**
+**Example 1: AI Writing Tool Idea Validation**
 ```
-用户输入: "我想做一个AI工具，但不知道做什么方向"
-技能执行: 
-1. 定位写作相关Subreddit
-2. 发现"小说家需要角色一致性检查工具"的高频痛点
-3. 设计"Character Consistency Checker" MVP
-4. 生成验证帖草稿
-5. 输出商业可行性评分（38/50，建议尝试）
-```
-
-**示例2: 跨境电商工具创意**
-```
-用户输入: "跨境电商卖家有什么痛点?"
-技能执行:
-1. 定位电商Subreddit
-2. 发现"多平台库存同步困难"痛点
-3. 设计"Simple Inventory Sync" MVP
-4. 生成问题验证帖
-5. 输出评分（32/50，建议细分市场）
+User input: "I want to build an AI tool but don't know what direction"
+Skill execution:
+1. Locates writing-related Subreddits
+2. Discovers high-frequency pain point: "Novelists need character consistency checking tool"
+3. Designs "Character Consistency Checker" MVP
+4. Generates validation post draft
+5. Outputs business feasibility score (38/50, recommended to try)
 ```
 
-## 技能包内容
+**Example 2: Cross-border E-commerce Tool Idea**
+```
+User input: "What pain points do cross-border e-commerce sellers have?"
+Skill execution:
+1. Locates e-commerce Subreddits
+2. Discovers pain point: "Multi-platform inventory synchronization is difficult"
+3. Designs "Simple Inventory Sync" MVP
+4. Generates problem validation post
+5. Outputs score (32/50, recommends market segmentation)
+```
 
-### 主要技能
-- **mvp-idea-generator** - MVP创意生成器，包含完整的五阶段工作流程
+## Skill Pack Contents
 
-### 参考文档
-- [社区定位指南](skills/mvp-idea-generator/references/subreddit-discovery-guide.md)
-- [痛点分析框架](skills/mvp-idea-generator/references/pain-point-analysis-framework.md)
-- [MVP设计原则](skills/mvp-idea-generator/references/mvp-design-principles.md)
-- [商业化评分表](skills/mvp-idea-generator/references/commercial-scoring-rubric.md)
+### Main Skill
+- **mvp-idea-generator** - MVP idea generator with complete five-stage workflow
 
-### 输出资产
-- [验证帖模板](skills/mvp-idea-generator/assets/validation-post-templates.md)
+### Reference Documents
+- [Community Discovery Guide](skills/mvp-idea-generator/references/subreddit-discovery-guide.md)
+- [Pain Point Analysis Framework](skills/mvp-idea-generator/references/pain-point-analysis-framework.md)
+- [MVP Design Principles](skills/mvp-idea-generator/references/mvp-design-principles.md)
+- [Business Scoring Rubric](skills/mvp-idea-generator/references/commercial-scoring-rubric.md)
 
-## 工作流程
+### Output Assets
+- [Validation Post Templates](skills/mvp-idea-generator/assets/validation-post-templates.md)
 
-1. **垂直社区定位** - 找到高质量的目标Subreddit
-2. **痛点嗅探** - 从社区讨论中提取真实需求
-3. **MVP生成** - 设计7天可构建的最小可行产品
-4. **验证文案** - 生成Reddit合规的验证帖
-5. **商业化评分** - 评估项目可行性（50分制）
+## Workflow
 
-## 贡献指南
+1. **Vertical Community Discovery** - Find high-quality target Subreddits
+2. **Pain Point Sniffing** - Extract real needs from community discussions
+3. **MVP Generation** - Design 7-day-buildable minimum viable products
+4. **Validation Copy** - Generate Reddit-compliant validation posts
+5. **Business Scoring** - Evaluate project feasibility (50-point scale)
 
-欢迎贡献！请遵循以下步骤：
+## Contributing
 
-1. Fork 本仓库
-2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 创建 Pull Request
+Contributions are welcome! Please follow these steps:
 
-### 开发新技能
-1. 在 `skills/` 目录下创建新的技能文件夹
-2. 遵循技能包结构：
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Create a Pull Request
+
+### Developing New Skills
+1. Create a new skill folder under the `skills/` directory
+2. Follow the skill pack structure:
    ```
    your-skill/
-   ├── SKILL.md          # 技能描述和指令
-   ├── references/       # 参考文档（可选）
-   └── assets/           # 输出资产（可选）
+   ├── SKILL.md          # Skill description and instructions
+   ├── references/       # Reference documents (optional)
+   └── assets/           # Output assets (optional)
    ```
-3. 更新本README的技能列表
+3. Update the skill list in this README
 
-## 许可证
+## License
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 联系方式
+## Contact
 
-- GitHub Issues: https://github.com/your-username/mvp-skills/issues
-- Email: your.email@example.com
+- Email: qson8888@gmail.com
 
-## 致谢
+## Acknowledgments
 
-- 感谢所有提供反馈和建议的独立开发者
-- 感谢Reddit社区提供的真实用户痛点数据
+- Thanks to all indie developers who provided feedback and suggestions
+- Thanks to the Reddit community for providing real user pain point data
