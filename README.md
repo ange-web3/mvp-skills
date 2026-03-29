@@ -1,4 +1,14 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                      MVP IDEA GENERATOR SKILL PACK                           │
+│                                                                              │
+│          Dig Reddit for real pain points, generate 7-day MVP solutions       │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
 # MVP Idea Generator Skill Pack
+
+[中文文档](README_zh.md) | English
 
 A skill pack that digs into Reddit to find real pain points and generates actionable MVP solutions. Helps indie developers, SaaS founders, cross-border entrepreneurs, and AI tool developers quickly validate product ideas and design minimum viable products.
 
