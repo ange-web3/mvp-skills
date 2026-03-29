@@ -1,10 +1,4 @@
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│                      MVP IDEA GENERATOR SKILL PACK                           │
-│                                                                              │
-│          Dig Reddit for real pain points, generate 7-day MVP solutions       │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+![MVP Idea Generator Banner](assets/banner.png)
 
 # MVP Idea Generator Skill Pack
 
