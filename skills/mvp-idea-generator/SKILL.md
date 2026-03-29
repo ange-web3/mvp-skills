@@ -1,6 +1,6 @@
 ---
 name: mvp-idea-generator
-description: 从Reddit挖掘真实痛点，快速生成可落地的MVP方案。当用户需要产品创意验证、市场痛点分析、MVP设计或创业方向评估时使用。
+description: 从Reddit挖掘真实用户痛点，生成7天可构建的MVP方案。当用户需要产品创意验证、市场痛点分析、MVP设计、创业方向评估、寻找PMF或验证SaaS想法时，必须使用此技能。
 ---
 
 # MVP Idea Generator
